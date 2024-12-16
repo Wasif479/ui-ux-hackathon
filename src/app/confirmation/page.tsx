@@ -7,9 +7,9 @@ export default function page() {
     <div className='flex justify-center items-center w-full  bg-gray-100 font-title h-screen'>
         <div className='w-full max-w-full lg:max-w-3xl p-4 rounded-md bg-white shadow-md flex flex-col items-center'>
         <div className="flex justify-between items-center w-full lg:w-11/12">
-          <div>
+          <div className='w-2/3'>
             <h1 className="text-[#1A202C] text-xl font-bold">Confirmation</h1>
-            <p className="text-[#90A3BF]">We are getting to the end. Just few clicks and your rental is ready!</p>
+            <p className="text-[#90A3BF] text-sm lg:text-base">We are getting to the end. Just few clicks and your rental is ready!</p>
           </div>
           <div className="text-[#90A3BF] text-sm">Step 4 of 4</div>
         </div>

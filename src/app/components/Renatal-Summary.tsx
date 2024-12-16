@@ -24,9 +24,9 @@ const RentalSummary = ()=> {
         <img src='/car1.png'/>  
         
         </div>
-        <div className='flex flex-col justify-start items-center font-title w-2/3 mt-4'>
+        <div className='flex flex-col justify-start items-start font-title w-2/3 mt-4'>
        <h1 className='text-3xl font-semibold'>Nissan GT - R</h1>
-       <div className='flex justify-start items-start w-2/3'>
+       <div className='flex flex-col md:flex-row justify-start items-start w-10/12 md:w-2/3'>
        <div className='mt-2 flex justify-start items-start  w-full '>
         <img src='/ic-star.png'/>
         <img src='/ic-star.png'/>
@@ -35,7 +35,7 @@ const RentalSummary = ()=> {
         <img src='/ic-star2.png'/>
        
        </div>
-       <div className='w-full  text-xs flex justify-center items-center text-center  mt-2'>
+       <div className='w-full  text-xs flex justify-start items-start text-center  mt-2'>
        440+ Reviewer
        </div>
 
