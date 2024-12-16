@@ -35,7 +35,7 @@ const RentalSummary = ()=> {
         <img src='/ic-star2.png'/>
        
        </div>
-       <div className='w-full  text-xs flex justify-start items-start text-center  mt-2'>
+       <div className='w-full  text-xs flex justify-start items-center text-center  mt-[10px]'>
        440+ Reviewer
        </div>
 
